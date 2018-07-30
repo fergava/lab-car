@@ -1,1 +1,30 @@
-/* Los estilos de tu proyecto */
+body {
+    box-sizing: border-box;
+    /* max-height: 100vh; */
+  }
+
+/* SEÇÃO 1 */
+#section-1 {
+  /* border: 1px solid black; */
+  min-height: 715px;
+  background-image: url("../assets/images/taxi.jpg");
+  background-position-y: 92%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* SEÇÃO 2 */
+
+
+/* SEÇÃO 3 */
+#section-3 {
+  min-height: 450px;
+  background-image: url("../assets/images/conduce.jpg");
+  background-position-y: 53%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* SEÇÃO 4 */
+
+/* FOOTER */
