@@ -3,10 +3,9 @@ body {
     /* max-height: 100vh; */
   }
 
-/* SEÇÃO 1 */
+/* SEÇÃO 1 MD */
 #section-1 {
-  /* border: 1px solid black; */
-  min-height: 715px;
+  min-height: auto;
   background-image: url("../assets/images/taxi.jpg");
   background-position-y: 92%;
   background-size: cover;
@@ -18,7 +17,7 @@ body {
 
 /* SEÇÃO 3 */
 #section-3 {
-  min-height: 450px;
+  min-height: auto;
   background-image: url("../assets/images/conduce.jpg");
   background-position-y: 53%;
   background-size: cover;
