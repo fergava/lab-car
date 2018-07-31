@@ -1,20 +1,68 @@
 body {
     box-sizing: border-box;
-    /* max-height: 100vh; */
+    max-height: 100vh;
   }
 
-/* SEÇÃO 1*/
+  /* MUDANÇA COR DO PLACEHOLDER */
+
+  *::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffffff;
+  }
+  *:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ffffff;
+   opacity:  1;
+  }
+  *::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ffffff;
+   opacity:  1;
+  }
+  *:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ffffff;
+  }
+  *::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #ffffff;
+  }
+  
+  *::placeholder { /* Most modern browsers support this now. */
+   color:    #ffffff;
+  }
+
+/* --------------------------------------------- */
+
+/* SEÇÃO 1 - TAXI*/
+
 #section-1 {
-  min-height: auto;
+  min-height: 100vh;
   background-image: url("../assets/images/taxi.jpg");
   background-position-y: 92%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* SEÇÃO 3 */
+.heigth-row-col-sec-1 {
+  min-height: 100vh;
+}
+
+.viaje-container {
+  height: auto;
+  min-width: 45vw;
+  width: auto;
+}
+
+.viaje-container-xs {
+  height: auto;
+  min-width: 40vw;
+  width: auto;
+}
+
+/* ---------------------------------- */
+
+/* SEÇÃO 2 - IPHONE */
+
+
+/* SEÇÃO 3 - MOTORISTA*/
 #section-3 {
-  min-height: auto;
+  min-height: 80vh;
   background-image: url("../assets/images/conduce.jpg");
   background-position-y: 53%;
   background-size: cover;
