@@ -3,7 +3,7 @@ body {
     /* max-height: 100vh; */
   }
 
-/* SEÇÃO 1 MD */
+/* SESSÃO 1*/
 #section-1 {
   min-height: auto;
   background-image: url("../assets/images/taxi.jpg");
@@ -12,10 +12,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* SEÇÃO 2 */
-
-
-/* SEÇÃO 3 */
+/* SESSÃO 3 */
 #section-3 {
   min-height: auto;
   background-image: url("../assets/images/conduce.jpg");
@@ -23,7 +20,3 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/* SEÇÃO 4 */
-
-/* FOOTER */

@@ -40,7 +40,7 @@
                 <a class="nav-link" href="#">Conduce</a>
               </li>
               <li class="nav-item mx-md-4 active">
-                <a class="nav-link" href="#">Inicia   sesión</a>
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#section-start">Inicia   sesión</a>
               </li>
             </ul>
           </div>
@@ -49,7 +49,7 @@
 
     </header>
 
-    <!-- SEÇÃO 1 -->
+    <!-- SESSÃO 1 -->
     <section id="section-1" class="text-white" style="height: auto">
       
       <!-- MD -->
@@ -90,7 +90,7 @@
 
     </section>
 
-    <!-- SEÇÃO 2 -->
+    <!-- SESSÃO 2 -->
     <section class="bg-warning text-white" >
       
       <!-- MD -->
@@ -123,7 +123,7 @@
 
     </section>
 
-    <!-- SEÇÃO 3 -->
+    <!-- SESSÃO 3 -->
     <section id="section-3" class="text-white">
 
       <!-- MD e XS -->
@@ -146,7 +146,7 @@
 
     </section>
 
-    <!-- SEÇÃO 4 -->
+    <!-- SESSÃO 4 -->
     <section class="bg-warning text-white" style="min-height: 570px">
       
       <!-- MD e XS -->
@@ -270,6 +270,67 @@
     </footer>
 
   </div>
+
+  <!-- MODAL -->
+
+  <!-- INICIO DE SESSÃO -->
+  <div id="section-start" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-info text-dark" style="width: 100%">
+          
+        <!-- IMG e x -->
+        <div class="modal-header">
+          <div class="container-fluid">
+            <div class="row no-gutters d-flex justify-content-between ">
+              <div class="col-md-4 col"></div>
+              <div class="col-md-4 col">
+                <img src="assets/images/profile-1.png" alt="profile" width="145px" height="145px" class="">
+              </div>
+              <div class="col-md-4 col">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- USER E PASSWORD -->
+        <div class="modal-body py-md-5 py-5">
+          <div class="card bg-light m-md-auto m-auto p-md-3 p-3" style="width: 70%">
+            <form>
+              <div class="form-group">
+                   
+                <div class="input-group mb-md-3 mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="icon-user"></i> </span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="icon-lock"></i> </span>
+                  </div>
+                  <input type="password" class="form-control l" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                </div>
+                    
+              </div>
+              
+              <div class="d-md-flex d-flex justify-content-md-center justify-content-center my-md-3 my-3">
+                <button type="submit" class="btn btn-sm btn-warning text-uppercase">Loging</button>
+              </div>
+
+              <p class="form-text m-md-0 m-0 text-center">Forgot password? <a href="#" class="text-warning font-weight-bold">Click Here</a></p>
+                
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    
 
   <!-- LINK JS EXTERNO -->
   <script type="text/javascript" src="js/app.js"></script>
