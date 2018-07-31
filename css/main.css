@@ -3,7 +3,7 @@ body {
     /* max-height: 100vh; */
   }
 
-/* SESSÃO 1*/
+/* SEÇÃO 1*/
 #section-1 {
   min-height: auto;
   background-image: url("../assets/images/taxi.jpg");
@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* SESSÃO 3 */
+/* SEÇÃO 3 */
 #section-3 {
   min-height: auto;
   background-image: url("../assets/images/conduce.jpg");
